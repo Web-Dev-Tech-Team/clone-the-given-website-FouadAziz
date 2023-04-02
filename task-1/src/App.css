@@ -1,0 +1,152 @@
+header {
+  display: grid;
+  grid-template-columns: [first] 20% auto [last] 20%;
+  background-color: rgb(218, 218, 218);
+}
+ul {
+  list-style-type: none;
+}
+.listItems {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+}
+.listItem {
+  margin: 0.5vw 2vw;
+}
+.settingContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.settings {
+  /* display: flex; */
+  /* align-items: center; */
+  margin: 1vw;
+}
+.logo {
+  width: 2vw;
+  margin: 1vw;
+}
+a {
+  text-decoration: none;
+}
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.contactIconsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+.contactIcons {
+  display: flex;
+  flex-direction: column;
+}
+.contactIcons img {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.contactForm {
+  flex: 2;
+}
+
+.bground {
+  flex: 3;
+  background-image: url("./img/third-party-web-application-support.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 10vw 3vh 12vw;
+  margin-top: 3vw;
+  background-color: rgb(211, 210, 206);
+  box-shadow: 0 -10px 15px -6px rgba(0, 0, 0, 0.1);
+}
+.links div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.links div h3 {
+  margin: 0;
+}
+
+.links div ul {
+  padding-left: 0;
+}
+.quickLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(211, 210, 206);
+  height: 6vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  box-shadow: 0 -10px 15px -6px rgba(0, 0, 0, 0.1);
+}
+.inputs {
+  display: flex;
+  width: 100%;
+  margin: 5vh 0;
+}
+.inputs input {
+  margin: 0 1vw;
+  width: 50%;
+  height: 3vh;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid #999;
+  border-left: 0;
+}
+
+.icons {
+  opacity: 0.4;
+  /* flex: 1; */
+}
+.icons img {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.company {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.learnMore {
+  font-size: medium;
+  color: rgb(121, 121, 121);
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+.txtSubmit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#txtArea {
+  width: 100%;
+  border-top: 0;
+  height: 25vh;
+  margin-bottom: 8vh;
+}
+#submitBtn {
+  width: fit-content;
+}
